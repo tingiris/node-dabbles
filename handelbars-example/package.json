@@ -1,0 +1,15 @@
+{
+  "name": "handelbars-example",
+  "version": "1.0.0",
+  "description": "Using [handlebars.js](https://www.npmjs.com/package/handlebars)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.0.11"
+  }
+}
