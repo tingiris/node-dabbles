@@ -1,3 +1,3 @@
 # Node.js Dabbles
 
-This is a collection of example code for node.js
+This is a collection of code examples for node.js
