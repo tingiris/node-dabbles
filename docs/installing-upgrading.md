@@ -1,10 +1,11 @@
-# Node Install and Upgrade
+Upgrading Node.js using 'n' (Mac) 
+===
 
 **upgrade global packages**
 
-1. Check for [outdated](https://docs.npmjs.com/cli/outdated) global packates 
+1. Check for [outdated](https://docs.npmjs.com/cli/outdated) global packages 
 
-    `npm outdated —global` 
+    `npm outdated --global` 
 
 2. [Update](https://docs.npmjs.com/cli/update) outdated packages
 
@@ -12,7 +13,7 @@
 
 ### Upgrading Node
 
-**check and update Node.js version**
+These are steps for upgrading node.js using the [node version manager 'n'](https://github.com/tj/n). **Note that 'n' does not work with Windows - this is for Mac only.**
 
 1. Check the current version
 
