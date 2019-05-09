@@ -5,7 +5,7 @@ Upgrading Node.js using 'n' (Mac)
 
 1. Check for [outdated](https://docs.npmjs.com/cli/outdated) global packages 
 
-    `npm outdated --global` 
+    `npm outdated -g --depth=0` 
 
 2. [Update](https://docs.npmjs.com/cli/update) outdated packages
 
