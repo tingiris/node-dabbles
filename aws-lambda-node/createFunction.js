@@ -3,7 +3,12 @@ var config = require('./config');
 var fs = require('fs');
 
 var AWS = require('aws-sdk');
-AWS.config.update({region:'us-east-1'});
+
+AWS.config.update({
+  region:'us-east-1',
+  accessKeyId: config.aws.key,
+  secretAccessKey: config.aws.secret
+});
 
 //zip lamnda code
 function packageLambda(callback) {
