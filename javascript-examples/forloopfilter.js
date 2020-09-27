@@ -42,7 +42,6 @@ function findPerson(githubUsername) {
     let obj = people.filter(obj => { return obj.githubUsername === githubUsername; });
     if (obj.length > 0) {
       resolve(`Found: ${obj[0].firstName} ${obj[0].firstName}`);
-
     } else {
       reject(`Did Not Find: ${githubUsername}`);
     }

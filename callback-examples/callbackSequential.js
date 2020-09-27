@@ -10,6 +10,14 @@ function task1(callback) {
   });
 }
 
+//when the script is run, this will start the sequence
+task1(() => {
+  fs.readFile('example.txt', (err, data) => {
+    if (err) throw err;
+    console.log(data.toString());
+  });
+});
+
 //taks2 will call task3
 function task2(callback) {
   fs.appendFile('example.txt', 'task2 done\n', (err) => {
@@ -24,10 +32,4 @@ function task3(callback) {
   });
 }
 
-//when the script is run, this will start the sequence
-task1(() => {
-  fs.readFile('example.txt', (err, data) => {
-    if (err) throw err;
-    console.log(data.toString());
-  });
-});
+
